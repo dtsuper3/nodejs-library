@@ -1,0 +1,15 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^18.0.5",
+    "typescript": "^4.8.2",
+    "xlsx": "^0.18.5"
+  }
+}
